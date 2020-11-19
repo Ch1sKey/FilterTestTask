@@ -3,6 +3,8 @@
   font-weight: bold;
   text-transform: uppercase;
   line-height: 28px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .button_main {
@@ -11,6 +13,7 @@
   background-color: #70D24E;
   border-radius: 5px;
   color: #fff;
+
 }
 
 .button_secondary {

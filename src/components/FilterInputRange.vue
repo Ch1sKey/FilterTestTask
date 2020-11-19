@@ -13,10 +13,10 @@
     </div>
     <v-range-slider
       v-model='currentRange'
-      hide-details
       :step="step"
       :min="range[0]"
       :max="range[1]"
+      hide-details
     ></v-range-slider>
   </div>
 </template>
@@ -67,6 +67,12 @@ export default {
 
 .v-slider .v-slider__track-container div.v-slider__track-background {
   background-color: #D8D8D8 !important;
+}
+
+.v-slider div.v-slider__thumb-container:focus div.v-slider__thumb {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
 }
 
 .v-slider .v-slider__thumb-container div.v-slider__thumb {
