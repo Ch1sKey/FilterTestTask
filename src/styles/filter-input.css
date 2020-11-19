@@ -1,0 +1,83 @@
+.filter-input__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.filter-input__title span {
+  text-transform: none;
+} 
+
+.filter-input__range-values {
+  display: flex;
+  align-items: center;
+}
+
+.filter-input__range-values__separator {
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.filter-input__field {
+  display: block;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.filter-input__selectors li {
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+.filter-input__selectors li:last-child {
+  margin: 0;
+}
+
+.filter-input__selectors__item {
+  cursor: pointer;
+  width: 47px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  background-color: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+}
+
+.filter-input__selectors__item:last-child {
+  margin: 0;
+}
+
+.filter-input__selectors__item:focus-within {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+.filter-input__selectors__item:hover, .filter-input__selectors__item:active {
+  outline: none;
+}  
+
+.filter-input__selectors__item_active {
+  background: #70D24E;
+  color: #fff;
+}
+
+.filter-input__selectors {
+  padding: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+}

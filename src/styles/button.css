@@ -1,0 +1,30 @@
+
+.button {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+
+.button_main {
+  font-size: 14px;
+  padding: 5px 54px;
+  background-color: #70D24E;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button_secondary {
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.button:hover, .button:active {
+  outline: none;
+}  
+
+.button_secondary span {
+  pointer-events: none;
+  border-bottom: 1px solid #70D24E;
+}
