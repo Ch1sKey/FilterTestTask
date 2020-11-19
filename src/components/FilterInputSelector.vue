@@ -36,7 +36,6 @@ export default {
       }
     },
     setDefault() {
-      console.log("?")
       this.checkboxValues = this.checkboxValues.map(value => {
         value.active = true
         return value
