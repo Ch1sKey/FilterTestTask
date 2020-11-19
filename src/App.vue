@@ -119,6 +119,7 @@ export default {
       this.$refs["floorRange"].setDefault()
       this.$refs["squareRange"].setDefault()
       this.$refs["priceRange"].setDefault()
+      this.applyFilter()
     },
     applyFilter() {
       this.filteredData = this.data.filter(item => {
