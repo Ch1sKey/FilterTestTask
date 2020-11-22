@@ -25,7 +25,11 @@
 
 .button:hover, .button:active {
   outline: none;
-}  
+}
+
+.button:focus {
+  outline: auto;
+}
 
 .button_secondary span {
   pointer-events: none;
